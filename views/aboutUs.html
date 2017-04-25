@@ -29,7 +29,7 @@
       <a ng-click="about.selected = 3" ng-class="{'selected' : about.selected === 3}" href class="">Contact Us</a>
     </div>
   </div>
-  <div class="content who" ng-if="about.selected === 0">
+  <div class="content who" ng-show="about.selected === 0">
 	<who></who>
   </div>
 <!--  
