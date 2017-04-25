@@ -5,7 +5,7 @@ app.directive('who', function(whoService){
     restrict: "E",
     templateUrl: 'js/templates/whoDirective.html',
     controller : function ($scope,$timeout){
-	  var vm = this;
+	  var aboutControllerVm = this;
       vm.textList = {};
       var promise = whoService.getText();
       promise.then(function(data) {
@@ -13,7 +13,7 @@ app.directive('who', function(whoService){
           vm.textList = data.data;
       });
 	  vm.test=whoService.test;
-	  $scope.vm = vm;
+	  $scope.aboutControllerVm = vm;
     }
   }
 });
