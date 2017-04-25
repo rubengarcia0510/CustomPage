@@ -2,17 +2,17 @@
       <div class="text-container {{text.class_container}}">
         <h2 class="{{text.class}} pt40 text-center">{{text.title}}</h2>
         <div class="row center-margin">
-		  <div class="display-inline text-center content-text" ng-if="{{text.class_container}} === """>
+		  <div class="display-inline text-center content-text" <!--ng-if="{{text.class_container}} === normal"-->>
             <p>{{text.text}}
             </p>
           </div>          
           <div class="display-inline text-center">
             <img  ng-src="images/{{text.img}}" alt="{{text.alt}}" />
           </div>
-		  <div class="display-inline text-center content-text" ng-if="{{text.class_container}} === odd">
+		  <!--<div class="display-inline text-center content-text" ng-if="{{text.class_container}} === odd">
             <p>{{text.text}}
             </p>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
