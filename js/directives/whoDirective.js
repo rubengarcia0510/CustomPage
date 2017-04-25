@@ -12,6 +12,7 @@ app.directive('who', function(whoService){
 		  alert(data.data)
           vm.textList = data.data;
       });
+	  $scope.vm = vm;
     }
   }
 });
