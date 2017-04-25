@@ -1,18 +1,16 @@
 var app = angular.module('customPage');
 
-app.directive('who', function(whoService){
+app.directive('whoDirective', function(whoService){
   return {
     restrict: "E",
     templateUrl: 'js/templates/whoDirective.html',
     controller : function ($scope,$timeout){
-	  var aboutControllerVm = this;
+	  vm= this;
       vm.textList = {};
       var promise = whoService.getText();
       promise.then(function(data) {
-		  alert(data.data)
           vm.textList = data.data;
       });
-	  vm.test=whoService.test;
 	  $scope.aboutControllerVm = vm;
     }
   }
