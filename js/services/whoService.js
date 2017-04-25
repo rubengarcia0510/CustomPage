@@ -3,7 +3,7 @@ var app = angular.module('customPage');
 app.service('whoService', function($http, $q) {
 
   var text = {};
-
+  this.test = "Hola. Esto es una prueba";
   var deferred = $q.defer();
   $http.get('js/json/whoJson.json').then(function(data) {
       deferred.resolve(data);

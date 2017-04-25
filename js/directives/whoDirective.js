@@ -12,7 +12,7 @@ app.directive('who', function(whoService){
 		  alert(data.data)
           vm.textList = data.data;
       });
-	  vm.test="hola";
+	  vm.test=whoService.test;
 	  $scope.vm = vm;
     }
   }
