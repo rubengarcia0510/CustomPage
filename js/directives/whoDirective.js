@@ -5,7 +5,7 @@ app.directive('whoDirective', function(whoService){
     restrict: "E",
     templateUrl: 'js/templates/whoDirective.html',
     controller : function ($scope,$timeout){
-	  vm= this;
+	  vm = this;
       vm.textList = {};
       var promise = whoService.getText();
       promise.then(function(data) {
