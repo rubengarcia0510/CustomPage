@@ -1,16 +1,16 @@
 [{
-  "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "text" : "hola",
   "class" : "normal",
   "img" : "Coffee-Love.jpg",
-  "title" : "Best Coffee Ever !"
+  "title" : "About Us"
 },{
-  "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "text" : "Café Diplos provide an informal space for lively debate on the many political, social and environmental issues that are frequently marginalised or misrepresented by the mainstream media. We like to think of the Café Diplo as part of the overall effort to provide a space for independent thinking and to challenge “La Pensée Unique” of neo-liberalism.",
   "class" : "odd",
   "img" : "happy-face.jpg",
-  "title" : "The Best We Have"
+  "title" : "Cafe Diplo at The Gallery, Farringdon, London"
 },{
-  "text" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "text" : "Friends of Le Monde Diplomatique is the UK branch of Les Amis, and was founded in 1997. We support the distribution of the paper and the values it embodies in its editorial line; democracy, social justice, and the pursuit of independent thought and action. In addition to running the Café Diplos throughout the year we also organise occasional mini conferences.",
   "class" : "normal",
   "img" : "Coffee-Love.jpg",
-  "title" : "Never Sleep Again !"
+  "title" : "More about who we are"
 }]
