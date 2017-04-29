@@ -1,6 +1,6 @@
 var app = angular.module('customPage');
 
-app.directive('contact', function(contactService){
+app.directive('contactDirective', function(contactService){
   return {
     restrict: "E",
     templateUrl: 'js/templates/contactDirective.html',
@@ -10,11 +10,13 @@ app.directive('contact', function(contactService){
           classToAdd: 'visible-div animated fadeIn'
         });
       }, 10);
-      $scope.textList = {};
+      vm = this;
+      vm.textList = {};
       var promise = contactService.getText();
       promise.then(function(data) {
-          $scope.textList = data.data;
+          vm.textList = data.data;
       });
+	  $scope.contactControllerVm = vm;
     }
   }
 });

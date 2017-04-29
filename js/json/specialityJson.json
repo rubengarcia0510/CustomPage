@@ -1,0 +1,16 @@
+[{
+  "text" : "Like its sister product below (Gourmet Blend), Trung Nguyen's House Blend is a blend of all four bean varieties, and comes in two 250-gram foil vent bags within the stylish outer box.",
+  "class" : "normal",
+  "img" : "house.gif",
+  "title" : "House Blends"
+},{
+  "text" : "Trung Nguyen's famous Gourmet Blend has all four bean varieties, in two 250-gram foil vent bags within the attractive outer box.",
+  "class" : "odd",
+  "img" : "gourmet.gif",
+  "title" : "Gourmet Blend"
+},{
+  "text" : "A popular Vietnamese traditional coffee, made using Arabica, Robusta, Excelsa & Catimor beans and supplied in a convenient ring-pull can with resealing lid.",
+  "class" : "normal",
+  "img" : "premium.gif",
+  "title" : "Premium Blend"
+}]

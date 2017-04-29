@@ -1,6 +1,6 @@
 var app = angular.module('customPage');
 
-app.directive('speciality', function(specialityService){
+app.directive('specialityDirective', function(specialityService){
   return {
     restrict: "E",
     templateUrl: 'js/templates/specialityDirective.html',
@@ -10,11 +10,13 @@ app.directive('speciality', function(specialityService){
           classToAdd: 'visible-div animated fadeIn'
         });
       }, 10);
-      $scope.textList = {};
+      vm = this;
+      vm.textList = {};
       var promise = specialityService.getText();
       promise.then(function(data) {
-          $scope.textList = data.data;
+          vm.textList = data.data;
       });
+	  $scope.specialityControllerVm = vm;
     }
   }
 });

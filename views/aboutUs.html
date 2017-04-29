@@ -32,8 +32,10 @@
   <div class="content who" ng-show="about.selected === 0">
 	<who-directive></who-directive>
   </div>
-<!--  
-  <speciality></speciality>
-  <contact></contact>
-  -->
+  <div class="content speciality" ng-show="about.selected === 1">
+	<speciality-directive></speciality-directive>
+  </div>
+  <div class="content contact" ng-show="about.selected === 3">
+	<contact-directive></contact-directive>
+  </div>
 </div>
